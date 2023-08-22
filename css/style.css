@@ -1,0 +1,252 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+  }
+  nav{
+    margin-top:5px;
+  }
+  .enlace{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .iconos{
+    margin-left: 6px;
+  }
+  .div_1{
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #ffffe4;
+    border-top: 1px solid black;
+    font-size: 21px;
+  }
+  .div_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #eff1f0;
+  }
+  .div_3{
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .square {
+    pointer-events: none;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 4px;
+    display: inline-block;
+  }
+  
+  .controls {
+    margin-top: 240px;
+    text-align: center;
+  }
+  .btn{
+    background: #eff1f0;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .ocultar{
+    display:none;
+  }
+  .boton{
+    border: none;
+    background-color:#ffffe4;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .banner_1{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/colombia/2023/Banner%20.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+  .card_1{
+    position:relative;
+    top: 185px;
+    left: 990px;
+    width: 250px;
+  }
+  .titulo_card{
+    font-family: "TCCC-UnityHeadline-Regular", "TCCC-UnityHeadline", sans-serif;
+    margin-bottom: 5px;
+    font-size: 40px;
+    line-height: 35px;
+  }
+  .parrafo_card{
+    font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-size: 20px;
+  }
+  .enlace_ver-mas{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  .banner_2{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/colombia/2023/CC_COL-Home_Desk.png");
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  .card_2{
+    position:relative;
+    top: 100px;
+    left: 100px;
+    width: 250px;
+    color: white
+  }
+  .banner_3{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/2023/2023-Somos_Muchos_Desktop.png");
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  .card_3{
+    position:relative;
+    top: 400px;
+    left: 1000px;
+    width: 350px;
+    color: white
+  }
+  .banner_4{
+    background-image: 
+      url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/Home-Sprite_Desktop.jpg");
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  .card_4{
+    position:relative;
+    top: 100px;
+    left: 100px;
+    width: 350px;
+    color: white
+  }
+  .banner_5{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/Home-reciclave-santander_Desktop.jpg");
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  .card_5{
+    position:relative;
+    top: 100px;
+    left: 100px;
+    width: 350px;
+    color: white
+  }
+  .banner_6{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/COL-banner_home-mujeres_desktop.jpg");
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+  .card_6{
+    position:relative;
+    top: 100px;
+    left: 1075px;
+    width: 350px;
+    color: white
+  }
+  .banner_7{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/Header_AguaFuturo_Desktop.jpg");
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+  }
+  .card_7{
+    position:relative;
+    top: 150px;
+    left: 100px;
+    width: 450px;
+    color: white
+  }
+  .banner_8{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/Header_1_CR-SanAdres_Desktop.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+  }
+  .card_8{
+    position:relative;
+    top: 450px;
+    left: 100px;
+    width: 350px;
+    color: white
+  }
+  .banner_9{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/Header_5_Historias_Desktop.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+  }
+  .card_9{
+    position:relative;
+    top: 310px;
+    left: 100px;
+    width: 350px;
+    color: white
+  }
+  .banner_10{
+    background-image: url("https://journey.coca-cola.com/content/dam/journey/lc/es/private/inicio-co/Header_6_WWW_Desktop.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+  }
+  .card_10{
+    position:relative;
+    top: 80px;
+    left: 1000px;
+    width: 350px;
+    color: white
+  }
+  footer{
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 0.5px solid white;
+  }
+  .footer_2{
+    display:flex;
+    flex-direction: column;
+  }
+  .footer_parrafo{
+    margin-top: 18px;
+  }
+  .footer_enlaces{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif
+  }
+  .footer_span{
+    margin-left: 20px;
+  }
+  .footer_3{
+    display:flex;
+    flex-direction: column;
+    text-align: end;
+  }
+  .redes_sociales{
+    margin-top: 40px;
+  }
+  .imagen_redes{
+    margin-right: 5px;
+  }
